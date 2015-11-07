@@ -14,20 +14,21 @@ body {
 		padding: 0;
 		position: absolute;
 		top: 2rem;
-		left: 2rem;
+		left: 4rem;
 		color: #FFFFFF;
 	}
 		#header h1 a {
 			color: #FFFFFF;
 			text-decoration: none;
 			font-weight: 700;
-			font-size: 2.4rem;
+			font-size: 1.5rem;
+			letter-spacing: 0.07rem;
 		}
 
 	#header nav {
 		position: absolute;
-		right: 2rem;
-		top: 2rem;
+		right: 3rem;
+		top: 4rem;
 	}
 
 		#header nav > ul {
@@ -43,10 +44,11 @@ body {
 			}
 
 				#header nav > ul > li a {
-					color: #777777;
+					color: #ffffff;
 					display: inline-block;
 					text-decoration: none;
-					font-size: 20px;
+					font-size: 1.5rem;
+					font-weight:500;
 				}
 
 					#header nav > ul > li a:hover {
@@ -54,22 +56,25 @@ body {
 					}
 
 	#banner {
-		padding: 16rem 0 13rem;
+		padding: 18rem 0 14rem;
 		text-align: center;
-		/*background-image: url("../images/overlay.png"), url("../images/banner.jpg");*/
-		background: linear-gradient(180deg, rgba(0,0,0,0.75) 10%, rgba(123,54,23,0.75) 90%), url("../images/banner.jpg");
+		background-image: url("../images/overlay.png"), url("../images/banner.jpg");
 		background-size: cover;
 		text-transform: uppercase;
 	}
 
 		#banner h2 {
 			color: #FFFFFF;
-			font-weight: 700;
+			font-weight: 600;
+			font-size: 4rem;
+			letter-spacing: 0.1rem;
+			margin-bottom:3rem;
 		}
 
 		#banner p {
 			color: #AAAAAA;
-			font-size: 1.5rem;
+			font-size: 1.75rem;
+			font-weight:500;
 		}
 
 ul.actions {
@@ -84,19 +89,57 @@ ul.actions {
 			background-color: #f32853;
 			color: #ffffff;
 			border-color: #f32853;
+			font-weight:600;
 		}
 
 		ul.actions li a.big {
-			font-size: 2rem;
-			padding: 2rem 3rem;
+			font-size: 1.5rem;
+			padding: 1.25rem 4rem;
+			margin-left: 3rem;
 			display: inline-block;
 			text-decoration: none;
 			border-radius: 5px;
-		}		
+			text-transform: uppercase;
+		}	
+
+		ul.actions li a.star {
+			background-color: #323037;
+			margin-right: 2.5rem;
+		}	
 
 .wrapper {
 	padding: 4rem 0;
 }
+
+	#one {
+
+		padding:6rem 16rem;
+	}
+
+		#one h2{
+			text-transform: uppercase;
+			font-weight: 700;
+			line-height: 4.75rem;
+			font-size: 3.75rem;
+			color: #484847;
+			padding: 0;
+		}
+
+		#one h3 {
+			color: #aaacb6;
+			text-transform: uppercase;
+			font-weight: 500;
+			font-size: 1.75rem;
+			line-height: 2.75rem;
+			letter-spacing: 0.05rem;
+		}
+
+		#one p {
+			font-size: 1.15rem;
+			font-weight: 500;
+			color: #908f8f;
+			line-height: 2rem;
+		}
 
 	#two {
 		background-color: #f6f6f6;
@@ -117,12 +160,12 @@ ul.actions {
 				font-size: 1.8rem;
 				margin: 0;
 				padding: 1rem 0;
-				
 			}
 
 		#two ul.actions {
 			margin-top: 4rem;
 		}
+
 
 header.major {
 	text-align: center;
@@ -181,3 +224,26 @@ header.major {
 				border: solid 0.5em rgba(144, 144, 144, 0.25);
 				border-radius: 100%;
 			}
+
+
+#CTA {
+		padding: 10rem 0 8rem;
+		text-align: center;
+		background-image: url("../images/overlay.png"), url("../images/pic01.jpg");
+		background-size: cover;
+		text-transform: uppercase;
+	}
+
+		#CTA h2 {
+			color: #FFFFFF;
+			font-weight: 600;
+			font-size: 3rem;
+			letter-spacing: 0.1rem;
+			margin-bottom:1rem;
+		}
+
+		#CTA p {
+			color: #AAAAAA;
+			font-size: 1.75rem;
+			font-weight:500;
+		}
